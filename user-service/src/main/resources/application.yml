@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+pagehelper:
+  reasonable: true
+  page-size-zero: true
+  support-methods-arguments: true
+  auto-runtime-dialect: true
