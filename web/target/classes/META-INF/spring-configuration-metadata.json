@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.februy.shop.properties.CosProperties",
+      "name": "",
+      "type": "com.februy.shop.properties.CosProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.februy.shop.properties.CosProperties",
+      "name": "app-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.februy.shop.properties.CosProperties",
+      "name": "secret-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.februy.shop.properties.CosProperties",
+      "name": "secret-key",
+      "type": "java.lang.String"
+    }
+  ]
+}

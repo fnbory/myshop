@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-web/commonweb.iml" filepath="$PROJECT_DIR$/common-web/commonweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-api/emailapi.iml" filepath="$PROJECT_DIR$/email-api/emailapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-service/emailservice.iml" filepath="$PROJECT_DIR$/email-service/emailservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/myshop.iml" filepath="$PROJECT_DIR$/myshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-api/orderapi.iml" filepath="$PROJECT_DIR$/order-api/orderapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/orderservice.iml" filepath="$PROJECT_DIR$/order-service/orderservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-api/userapi.iml" filepath="$PROJECT_DIR$/user-api/userapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/userservice.iml" filepath="$PROJECT_DIR$/user-service/userservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />

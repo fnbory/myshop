@@ -1,37 +1,634 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40faa28b-128a-43f7-bd15-983919e5f644" name="Default Changelist" comment="" />
+    <list default="true" id="40faa28b-128a-43f7-bd15-983919e5f644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/commonweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/exception/security/AccessDeniedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/exception/security/TokenStateInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/properties/AuthenticationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/domin/JWTUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/domin/TokenCheckResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/endpoint/JWTAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/endpoint/RESTAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/filter/JWTAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/token/TokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/token/TokenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/token/impl/TokenManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/vertification/VerificationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/vertification/impl/VerificationManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/exception/security/AccessDeniedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/exception/security/TokenStateInvalidException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/properties/AuthenticationProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/domin/JWTUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/domin/TokenCheckResult$TokenCheckResultBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/domin/TokenCheckResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/endpoint/JWTAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/endpoint/RESTAccessDeniedHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/filter/JWTAuthenticationTokenFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/token/TokenManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/token/TokenState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/token/impl/TokenManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/vertification/VerificationManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-web/target/classes/com/februy/shop/commonweb/security/vertification/impl/VerificationManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/domain/CaptchaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/domain/CaptchaVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/BaseRestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/RestValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/annotation/RestExceptionAnnotationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/annotation/RestField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/annotation/RestResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/domain/RestError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/domain/RestFieldError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/meta/RestFieldAnnotationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/meta/RestResponseStatusAnnotationNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/cache/RedisCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/cache/impl/RedisCacheManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/InternationalizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/RedisCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/message/MessageIdDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/message/MessageQueryConditionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/order/OrderQueryConditionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/pay/PaymentPasswordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/pay/PaymentPasswordModificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/user/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/user/LoginSuccessResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/message/ConsumerTransactionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/message/ProducerTransactionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/pay/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/product/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/MessageStatusTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/OrderStatusTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/ProductTypeTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/UserStatusTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/message/MessageStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/order/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/product/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/user/UserMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/properties/CharsetProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/properties/PageProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/CaptchaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/InternationalizeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/ProtoStuffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/Past.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/PastValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/i18n/messages_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/i18n/messages_zh_SG.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/domain/CaptchaDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/domain/CaptchaVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/BaseRestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/RestValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/annotation/RestExceptionAnnotationUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/annotation/RestField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/annotation/RestResponseStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/domain/RestError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/domain/RestFieldError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/meta/RestFieldAnnotationNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/base/exception/meta/RestResponseStatusAnnotationNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/cache/RedisCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/cache/impl/RedisCacheManagerImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/cache/impl/RedisCacheManagerImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/cache/impl/RedisCacheManagerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/config/InternationalizationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/config/PasswordConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/config/RedisCacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/message/MessageIdDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/message/MessageQueryConditionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/order/OrderQueryConditionDTO$OrderQueryConditionDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/order/OrderQueryConditionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/pay/PaymentPasswordDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/pay/PaymentPasswordModificationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/user/LoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/dto/user/LoginSuccessResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/message/ConsumerTransactionMessage$ConsumerTransactionMessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/message/ConsumerTransactionMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/message/ProducerTransactionMessage$ProducerTransactionMessageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/message/ProducerTransactionMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/order/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/pay/Balance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/product/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/product/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/user/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/domain/entity/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/conversion/MessageStatusTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/conversion/OrderStatusTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/conversion/ProductTypeTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/conversion/UserStatusTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/message/MessageStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/order/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/product/ProductType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/user/UserMode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/enumeration/user/UserStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/properties/CharsetProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/properties/DateTimeProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/properties/PageProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/utils/CaptchaUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/utils/InternationalizeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/utils/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/utils/ProtoStuffUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/utils/UUIDUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/validator/Past.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/com/februy/shop/common/validator/PastValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/i18n/messages_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/i18n/messages_zh_SG.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/emailapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/src/main/java/com/februy/shop/exception/email/EmailTemplateNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/src/main/java/com/februy/shop/service/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/target/classes/com/februy/shop/exception/email/EmailTemplateNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-api/target/classes/com/februy/shop/service/email/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/emailservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/EmailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/config/email/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/properties/EmailSubjectProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/service/email/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/resources/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/resources/email-subject.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/src/main/resources/task.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/com/februy/shop/EmailApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/com/februy/shop/config/email/ExecutorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/com/februy/shop/properties/EmailSubjectProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/com/februy/shop/service/email/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/email-subject.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email-service/target/classes/task.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/orderapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/februy/shop/exception/order/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/februy/shop/exception/order/OrderStateIllegalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/februy/shop/service/message/ConsumerTransactionMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/februy/shop/service/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/februy/shop/exception/order/OrderNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/februy/shop/exception/order/OrderStateIllegalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/februy/shop/service/message/ConsumerTransactionMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/februy/shop/service/order/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/orderservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/config/MQConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/config/MQProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/dao/message/ConsumerTransactionMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/dao/order/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/mq/AccountMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/properties/OrderProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/service/message/ConsumerTransactionMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/service/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/mapper/ConsumerTransactionMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/config/MQConsumerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/config/MQProducerConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/config/MQProducerConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/config/MQProducerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/dao/message/ConsumerTransactionMessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/dao/order/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/mq/AccountMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/properties/OrderProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/service/message/ConsumerTransactionMessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/februy/shop/service/order/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/mapper/ConsumerTransactionMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/BalanceNotEnoughException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/DepositException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/OrderPaymentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/PaymentPasswordInCorrectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/product/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/user/UsernameExistedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/message/ProducerTransactionMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/pay/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/pay/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/pay/BalanceNotEnoughException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/pay/DepositException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/pay/OrderPaymentException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/pay/PaymentPasswordInCorrectException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/product/ProductNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/user/UserNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/exception/user/UsernameExistedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/service/message/ProducerTransactionMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/service/pay/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/service/pay/PayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/service/product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/target/classes/com/februy/shop/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/config/MQConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/config/MQProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/message/ProductTransactionMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/pay/BalanceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/product/ProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/product/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/user/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/mq/AccountLocalTransactionExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/mq/listener/TransactionCheckMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/message/ProducerTransactionMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/pay/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/pay/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/product/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/BalanceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/ProductTransactionMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/config/MQConsumerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/config/MQProducerConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/config/MQProducerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/message/ProductTransactionMessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/pay/BalanceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/product/ProductCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/product/ProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/user/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/dao/user/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/mq/AccountLocalTransactionExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/mq/listener/TransactionCheckMessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/service/message/ProducerTransactionMessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/service/pay/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/service/pay/PayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/service/product/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/com/februy/shop/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/BalanceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/ProductTransactionMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/message/MessageConsoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/order/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/pay/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/token/TokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/CaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/exception/ActivationCodeValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/exception/CaptchaValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/exception/LoginInfoInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/exception/UserStatusInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/properties/CosProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/util/Base64UtilForCos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/util/CosUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/cos.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/dubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/META-INF/web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/WebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/message/MessageConsoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/order/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/pay/PayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/product/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/token/TokenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/user/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/exception/ActivationCodeValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/exception/CaptchaValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/exception/LoginInfoInvalidException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/exception/UserStatusInvalidException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/properties/CosProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/util/Base64UtilForCos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/com/februy/shop/util/CosUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/cos.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/classes/dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_messaging_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_messaging_4_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/user/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/user/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/test-classes/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/test-classes/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/user/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/user/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-api/userapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-api/userapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/userservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/userservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/user-api/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/user-service/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/common-web/target/" />
+    <ignored path="$PROJECT_DIR$/email-service/target/" />
+    <ignored path="$PROJECT_DIR$/email-api/target/" />
+    <ignored path="$PROJECT_DIR$/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/order-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1355">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-195">
+              <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+              <folding>
+                <element signature="e#2835#2836#0" expanded="true" />
+                <element signature="e#2892#2893#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/token/TokenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/CaptchaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/InternationalizationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>UserDo</find>
-      <find>use</find>
+      <find>usernamem</find>
+      <find>redis</find>
+      <find>findallw</find>
+      <find>findall</find>
+      <find>onboard</find>
+      <find>findo</find>
+      <find>20882</find>
+      <find>20880</find>
+      <find>check</find>
+      <find>orderdo</find>
+      <find>verti</find>
+      <find>sethead</find>
+      <find>filter</find>
+      <find>accoun</find>
+      <find>checkk</find>
+      <find>set</find>
+      <find>entry</find>
+      <find>set(</find>
+      <find>get(</find>
+      <find>remove(</find>
+      <find>t</find>
+      <find>thread(</find>
+      <find>ProducerTransactionMessageServiceimpl</find>
+      <find>userdetailsser</find>
+      <find>template</find>
+      <find>/templates/</find>
+      <find>SecurityConfig</find>
+      <find>messages</find>
+      <find>JWTAuthenticationTokenFilter</find>
+      <find>save(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -40,29 +637,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
-        <option value="$PROJECT_DIR$/common/src/test/java/Generator.java" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/domain/entity/user/Role.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/domain/entity/user/UserDO.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/properties/DateTimeProperties.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/enumeration/user/UserStatus.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/domain/entity/user/User.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/user-api/pom.xml" />
-        <option value="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/user/UserService.java" />
-        <option value="$PROJECT_DIR$/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/dao/user/UsereMapper.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/user/UserMapper.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/user/UserNotFoundException.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/WebApplication.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/PaymentPasswordInCorrectException.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/pay/BalanceNotEnoughException.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/pay/PayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/config/MQConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/config/MQProducerConfig.java" />
+        <option value="$PROJECT_DIR$/order-api/src/main/java/com/februy/shop/service/message/ConsumerTransactionMessageService.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/servive/message/ConsumerTransactionMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/dao/message/ConsumerTransactionMessageMapper.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/mapper/ConsumerTransactionMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/mq/AccountMessageListener.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/service/order/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/service/message/ConsumerTransactionMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/service/message/ConsumerTransactionMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/dubbo.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/OrderStatusTypeHandler.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/MessageStatusTypeHandler.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/conversion/ProductTypeTypeHandler.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/config/MQConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/message/ProducerTransactionMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/CaptchaController.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/token/TokenController.java" />
+        <option value="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/endpoint/RESTAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/util/CosUtil.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/cos.properties" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/InternationalizeUtil.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/i18n/messages_zh_SG.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/Past.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/PastValidator.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/User.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/message/ConsumerTransactionMessage.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/message/MessageIdDTO.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/pay/PaymentPasswordDTO.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/dubbo.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/dubbo.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/WebApplication.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/InternationalizationConfig.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/EmailApplication.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/UserApplication.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java" />
       </list>
     </option>
   </component>
@@ -79,17 +704,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_3.xml" />
-        <option value="$PROJECT_DIR$/user-service/userservice.iml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/web/web.iml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="115" />
     <option name="y" value="80" />
@@ -102,6 +716,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,51 +728,6 @@
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,33 +742,6 @@
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myshop" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
@@ -208,18 +751,89 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/order-service/src/main/resources/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -232,11 +846,18 @@
       <recent name="D:\myshop\user-service\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.februy.myshop.common.domain.entity.user" />
+      <recent name="service.order" />
+      <recent name="com.februy.shop.service.pay" />
+      <recent name="com.februy.shop.commonweb.security.vertification.impl" />
+      <recent name="com.februy.shop.commonweb.security.vertification" />
+      <recent name="com.februy.shop.commonweb.security.token.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myshop\web\src\main\resources\mapper" />
-      <recent name="D:\myshop\common\src\main\resources" />
+      <recent name="D:\myshop\order-service\src\main\resources\mapper" />
+      <recent name="D:\myshop\user-service\src\main\resources\mapper" />
+      <recent name="D:\myshop\order-service\src\main\resources" />
+      <recent name="D:\myshop\web\src\main\resources" />
+      <recent name="D:\myshop\common-web\src\main\java\com\februy\shop\commonweb,security\token" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,7 +872,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EmailApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generator" />
       <module name="common" />
@@ -259,8 +880,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="emailservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.februy.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.februy.shop.EmailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="orderservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.februy.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.februy.shop.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="userservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.februy.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.februy.shop.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.februy.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.februy.shop.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.EmailApplication" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
@@ -275,84 +952,176 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576832380256</updated>
-      <workItem from="1576832385598" duration="13140000" />
+      <workItem from="1576832385598" duration="13417000" />
+      <workItem from="1576910857170" duration="22983000" />
+      <workItem from="1576984770161" duration="22547000" />
+      <workItem from="1577078524882" duration="9652000" />
+      <workItem from="1577100311669" duration="5268000" />
+      <workItem from="1577159209608" duration="10488000" />
+      <workItem from="1577194997052" duration="1641000" />
+      <workItem from="1577250838165" duration="8164000" />
+      <workItem from="1577260423322" duration="5397000" />
+      <workItem from="1577270431525" duration="6074000" />
+      <workItem from="1577326277595" duration="890000" />
+      <workItem from="1577336777533" duration="6041000" />
+      <workItem from="1577424716998" duration="24441000" />
     </task>
+    <task id="LOCAL-00001" summary="简单搭个架子--first day">
+      <created>1576849154368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576849154368</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13140000" />
+    <option name="totallyTimeSpent" value="137003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32991204" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="JProfiler" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2947214" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32551318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6392962" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.28005865" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单搭个架子--first day" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单搭个架子--first day" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/BaseRestException.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/cos.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="133" selection-start-line="22" selection-start-column="133" selection-end-line="22" selection-end-column="133" />
+        <state relative-caret-position="40">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/test/java/Generator.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/MessageSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/annotation/RestExceptionAnnotationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/i18n/LocaleContextHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/base/exception/BaseRestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/utils/InternationalizeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/myshop/common/domain/entity/user/UserWithBLOBs.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/i18n/messages_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/i18n/messages_messages_zh_SG.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1489">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/User.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/i18n/messages_zh_SG.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="261">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/i18n/messages_zh_CN.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/vertification/impl/VerificationManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -363,86 +1132,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/enumeration/user/UserStatus.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-sources.jar!/com/fasterxml/jackson/annotation/JsonFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/ConstraintValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/constraints/Past.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/Past.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/Role.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/validator/PastValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/service/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/dao/user/UsereMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/dao/user/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -451,88 +1175,236 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/service/user/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/message/ConsumerTransactionMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="138">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/message/ProducerTransactionMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/februy/shop/exception/user/UserNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/order/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/pay/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/product/ProductCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/message/MessageIdDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/message/MessageQueryConditionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/order/OrderQueryConditionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/pay/PaymentPasswordDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/user/LoginSuccessResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/entity/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="84" column="56" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="56" />
+        <state relative-caret-position="130">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1343">
-          <caret line="86" column="106" selection-start-line="86" selection-start-column="106" selection-end-line="86" selection-end-column="106" />
+        <state relative-caret-position="320">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/februy/shop/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-service/src/main/java/com/februy/shop/EmailApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="156">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/februy/shop/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/endpoint/JWTAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-web/src/main/java/com/februy/shop/commonweb/security/filter/JWTAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/config/InternationalizationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/security/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="136">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1355">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="101" column="57" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+          <folding>
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2892#2893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/februy/shop/common/domain/dto/user/LoginDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/token/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/februy/shop/controller/user/CaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>

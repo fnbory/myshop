@@ -24,6 +24,25 @@
             <version>${project.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.februy</groupId>
+            <artifactId>common-web</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.februy</groupId>
+            <artifactId>email-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.februy</groupId>
+            <artifactId>order-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+
     </dependencies>
 
 

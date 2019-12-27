@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        ">
+    <bean id="userService"
+          class="com.februy.shop.service.user.UserServiceImpl"/>
+<!--    <bean id="mailService"-->
+<!--          class="cn.sinjinsong.eshop.service.mail.impl.MailServiceImpl"/>-->
+<!--    <bean id="newsService"-->
+<!--          class="cn.sinjinsong.eshop.service.news.impl.NewsServiceImpl"/>-->
+    <bean id="payService"
+          class="com.februy.shop.service.pay.PayServiceImpl"/>
+    <bean id="productService"
+          class="com.februy.shop.service.product.ProductServiceImpl"/>
+    <bean id="accountService"
+          class="com.februy.shop.service.pay.AccountServiceImpl"/>
+    <bean id="producerTransactionMessageService"
+          class="com.februy.shop.service.message.ProducerTransactionMessageServiceImpl"/>
+    
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="user_provider"/>
+    <!-- 使用zookeeper注册中心暴露服务地址 -->
+<!--    <dubbo:registry protocol="zookeeper" address="47.100.213.16:2181,192.168.1.119:2181,192.168.1.120:2181"/>-->
+    <!--    我先起一个，后边做集群-->
+    <dubbo:registry protocol="zookeeper" address="47.100.213.16:2181"/>
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20880" serialization="java"/>
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.februy.shop.service.user.UserService" version="1.0.0"
+                   ref="userService"/>
+<!--    <dubbo:service interface="cn.sinjinsong.eshop.service.mail.MailService" version="1.0.0"-->
+<!--                   ref="mailService"/>-->
+<!--    <dubbo:service interface="cn.sinjinsong.eshop.service.news.NewsService" version="1.0.0"-->
+<!--                   ref="newsService"/>-->
+    <dubbo:service interface="com.februy.shop.service.pay.PayService" version="1.0.0"
+                   ref="payService"/>
+    <dubbo:service interface="com.februy.shop.service.product.ProductService" version="1.0.0"
+                   ref="productService"/>
+    <dubbo:service interface="com.februy.shop.service.pay.AccountService" version="1.0.0"
+                   ref="accountService"/>
+    <dubbo:service interface="com.februy.shop.service.message.ProducerTransactionMessageService" version="1.0.0"
+                   ref="producerTransactionMessageService"/>
+</beans>

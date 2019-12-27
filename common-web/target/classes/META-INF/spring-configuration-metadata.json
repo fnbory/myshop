@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth",
+      "type": "com.februy.shop.commonweb.properties.AuthenticationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth.activation-code-expire-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth.captcha-expire-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth.forget-name-code-expire-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth.secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.februy.shop.commonweb.properties.AuthenticationProperties",
+      "name": "auth.token-expire-time",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

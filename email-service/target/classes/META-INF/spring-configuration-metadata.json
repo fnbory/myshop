@@ -1,0 +1,72 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.februy.shop.properties.EmailSubjectProperties",
+      "name": "",
+      "type": "com.februy.shop.properties.EmailSubjectProperties"
+    },
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor",
+      "type": "com.februy.shop.config.email.ExecutorConfig"
+    },
+    {
+      "sourceType": "com.februy.shop.service.email.EmailServiceImpl",
+      "name": "spring.mail",
+      "type": "com.februy.shop.service.email.EmailServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor.core-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor.keep-alive",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor.queue-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.februy.shop.config.email.ExecutorConfig",
+      "name": "executor.thread-name-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.februy.shop.service.email.EmailServiceImpl",
+      "name": "spring.mail.java-mail-sender",
+      "type": "org.springframework.mail.javamail.JavaMailSender"
+    },
+    {
+      "sourceType": "com.februy.shop.service.email.EmailServiceImpl",
+      "name": "spring.mail.subject-properties",
+      "type": "com.februy.shop.properties.EmailSubjectProperties"
+    },
+    {
+      "sourceType": "com.februy.shop.service.email.EmailServiceImpl",
+      "name": "spring.mail.template-engine",
+      "type": "org.thymeleaf.TemplateEngine"
+    },
+    {
+      "sourceType": "com.februy.shop.service.email.EmailServiceImpl",
+      "name": "spring.mail.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.februy.shop.properties.EmailSubjectProperties",
+      "name": "subjects",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}

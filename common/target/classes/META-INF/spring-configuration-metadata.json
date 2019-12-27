@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.februy.shop.common.config.InternationalizationConfig",
+      "name": "spring.messages",
+      "type": "com.februy.shop.common.config.InternationalizationConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.februy.shop.common.config.InternationalizationConfig",
+      "name": "spring.messages.basename",
+      "type": "java.lang.String"
+    }
+  ]
+}

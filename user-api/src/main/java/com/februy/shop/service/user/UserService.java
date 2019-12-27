@@ -1,6 +1,9 @@
 package com.februy.shop.service.user;
 
 import com.februy.shop.common.domain.entity.user.User;
+import com.github.pagehelper.PageInfo;
+
+import java.util.List;
 
 /**
  * @Author: fnbory
@@ -14,4 +17,12 @@ public interface UserService {
     User findByPhone(String key);
 
     User findByEmail(String key);
+
+    void save(User user);
+
+    void update(User user);
+
+    PageInfo<User> findAll(Integer pageNum, Integer pageSize);
+
+    List<User> findIdAndNameByUsernameContaining(String username);
 }

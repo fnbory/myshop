@@ -3,6 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/email-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />

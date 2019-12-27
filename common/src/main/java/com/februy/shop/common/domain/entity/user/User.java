@@ -3,16 +3,19 @@ package com.februy.shop.common.domain.entity.user;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.februy.shop.common.enumeration.user.UserStatus;
 import com.februy.shop.common.properties.DateTimeProperties;
+import com.februy.shop.common.validator.Past;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.Email;
 
 import javax.validation.constraints.*;
-import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
+
 
 @Data
 @NoArgsConstructor
@@ -108,6 +111,8 @@ public class User implements Serializable {
     @NotNull
     @Pattern(regexp = "[0-9]+")
     private String phone;
+
+    private List<Role> roles;
 
 
     private UserStatus userStatus;

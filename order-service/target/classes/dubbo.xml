@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd  
+        ">
+
+    <bean id="orderService"
+          class="com.februy.shop.service.order.OrderServiceImpl"/>
+    <bean id="consumerTransactionMessageService"
+          class="com.februy.shop.service.message.ConsumerTransactionMessageServiceImpl"/>
+    
+    <!-- 消费者应用信息，用于提供依赖关系 -->
+    <dubbo:application name="order_provider"/>
+    <!-- 注册地址，用于消费者寻找服务 -->
+    <dubbo:registry protocol="zookeeper" address="47.100.213.16:2181"/>
+    <dubbo:protocol name="dubbo" port="20881" serialization="java"/>
+    <!--公开的-->
+    <dubbo:service interface="com.februy.shop.service.order.OrderService" version="1.0.0"
+                   ref="orderService"/>
+    <!--引用的，因为有循环依赖，所以关闭开启时检查-->
+    <dubbo:reference id="userService" interface="com.februy.shop.service.user.UserService" version="1.0.0" check="false"/>
+    <dubbo:reference id="productService" interface="com.februy.shop.service.product.ProductService" version="1.0.0" check="false"/>
+</beans>
